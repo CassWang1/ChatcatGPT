@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const customIdentities = JSON.parse(localStorage.getItem('customIdentities') || '[]');
     customIdentities.forEach(addIdentityToSelection);
+    //Update
 
     let currentModel = 'gpt-4-1106-preview';
     let currentPrompt = 'You are a helpful assistant. You can help me by answering my questions. You can also ask me questions.';
